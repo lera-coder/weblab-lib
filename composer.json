@@ -1,0 +1,27 @@
+{
+    "name" : "valery/weblab-lib",
+    "description": "end",
+    "license": "0",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "Valery Selivanova",
+            "email": "valeryselivanova0@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Valery\\InterestPack\\":"src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit" : "*",
+        "overtrue/phplint" : "*"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "prefer-stable": true
+}
